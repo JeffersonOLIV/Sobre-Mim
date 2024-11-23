@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em Contato</title>
+</head>
+<body>
+    <h2>Entre em Contato por:</h2>
+<p>jeffersono53@gmail.com</p>
+<p>(84)99929-5169</p>
+<form action="{{url_for('msgenviada')}}">
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="10" cols="60" placeholder="Digite aqui"></textarea><br>
+    <button>Enviar</button>
+</form>
+</body>
+</html>
